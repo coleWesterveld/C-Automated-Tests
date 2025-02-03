@@ -1,12 +1,12 @@
 # Automated Testing for Assignments In C with Unity Framework
 
 ## 🚀 Overview
-This was made to allow easy sharing of unit tests for assignments
-Anyone can clone or fork and easily run tests on their own code or contribute testcases
+This was made to allow easy sharing of unit tests for assignments. 
+Anyone can clone or fork and easily run tests on their own code or contribute testcases.
 
 Then, put your code in private folder and run the makefile, and the project will automatically ensure your functions have the proper output for input.
 
-This is **NOT** to share function definition code, only shared unit tests which I have made as easy as possible to test your code
+This is **NOT** to share function definition code, only shared unit tests which I have made as easy as possible to test your code.
 
 [Find out more about Unity here.](https://www.throwtheswitch.org/unity)
 ---
@@ -39,8 +39,8 @@ This is **NOT** to share function definition code, only shared unit tests which 
 
 ### 1️⃣ Clone or Download the Shared Test Files
 ```sh
-git clone https://github.com/yourusername/shared_tests.git
-cd shared_tests
+git clone https://github.com/coleWesterveld/C-Automated-Tests.git
+cd C-Automated-Tests
 ```
 
 ### 2️⃣ Setup Your Private Code
@@ -121,7 +121,7 @@ will compile and link your project, and create an executable as `build/lastnameF
 ```sh
   ./build/lastnameFirstnameA1 private/a1Data.txt
 ```
-of course replacing mock values with your actual ones. here we are passing `a1Data.txt` as a command line argument.
+Of course replacing mock values with your actual ones. here we are passing `a1Data.txt` as a command line argument.
 
 To remove compiled files and reset the build:
 ```sh
@@ -173,7 +173,7 @@ int main(void) {
 make: *** No rule to make target `test'.  Stop.
 ```
 
-**Ensure you are in the right directory.** when running any make command, it will execute the `makefile` in your current directory. if you are in `/private`, you could be running your `makefile` which does not have `test` and `debug`, and so you asre getting an error. It is okay to leave your `makefile` in `/private` to keep your whole assignment together, just make sure you `cd` into the root directory to run the correct `makefile`.
+**Ensure you are in the right directory.** when running any make command, it will execute the `makefile` in your current directory. if you are in `/private`, you could be running your `makefile` which does not have `test` and `debug`, and so you are getting an error. It is okay to leave _**your**_ `makefile` in `/private` to keep your whole assignment together, just make sure you `cd` into the root directory to run the correct `makefile`.
 
 ### Q: **I see compilation errors related to missing functions!**
 ✔ Ensure your **private C file** is correctly named (`private/lastnameFirstnameA1.c`).
