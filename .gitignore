@@ -1,0 +1,11 @@
+# Files not to push to Github
+
+# Ignore private code
+private/
+
+# Ignore compiled files
+build/
+*.o
+*.out
+/.vscode
+*.gch
