@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -std=c99 -g -pedantic -DUNITY_OUTPUT_COLOR
 
 # TODO: CHANGE FILE NAME HERE
-SRC_NAME = westerveldColeA1
+SRC_NAME = lastnameFirstnameA1
 MAIN_NAME = $(SRC_NAME)Main
 # will automatically compile the project with DATA_FILE as a command line argument
 DATA_FILE = a1Data.txt
